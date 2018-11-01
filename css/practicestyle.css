@@ -13,6 +13,9 @@ body {
 
 html.homebg {
 	background: url(../images/homebg.jpeg) no-repeat center center fixed;
+	background-size: cover;
+	height: 100%;
+	overflow: hidden;
 }
 
 html.pagebg {
