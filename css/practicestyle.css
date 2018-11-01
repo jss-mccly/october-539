@@ -19,6 +19,7 @@ html.homebg {
 
 html.pagebg {
 	background: url(../images/abstractbg.jpeg) no-repeat center center fixed;
+	background-size: cover;
 }
 
 nav {
@@ -229,7 +230,7 @@ p.centered {
 	}
 
 	h3 {
-		font-size: 420%;
+		font-size: 385%;
 	}
 
 	.footer {
