@@ -154,6 +154,17 @@ p.centered {
 	text-align: right;
 }
 
+@media only screen and (max-width: 420px) {
+	div.portfolio-works p {
+		display: none;
+	}
+
+	div.portfolio-works h3 {
+		font-size: 175%;
+		margin: 0px;
+	}
+}
+
 @media only screen and (min-width: 640px) {
 	div.portfolio-works {
 		display: flex;
@@ -226,14 +237,4 @@ p.centered {
 	.footer {
 		font-size: 140%;
 	}
-}
-
-@media only screen and (max-width: 420px) {
-	div.portfolio-works p {
-		display: none;
-	}
-
-	div.portfolio-works h3 {
-		font-size: 175%;
-		margin: 0px;
 }
