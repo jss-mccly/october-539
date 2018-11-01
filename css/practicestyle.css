@@ -13,9 +13,6 @@ body {
 
 html.homebg {
 	background: url(../images/homebg.jpeg) no-repeat center center fixed;
-	background-size: cover;
-	height: 100%;
-	overflow: hidden;
 }
 
 html.pagebg {
@@ -163,6 +160,11 @@ p.centered {
 		font-size: 175%;
 		margin: 0px;
 	}
+	html.homebg {
+		background-size: cover;
+		height: 100%;
+		overflow: hidden;
+	}
 }
 
 @media only screen and (min-width: 640px) {
@@ -218,8 +220,6 @@ p.centered {
 }
 
 @media only screen and (orientation: landscape) {
-
-
 	p {
 		font-size: 280%;
 	}
