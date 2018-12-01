@@ -79,17 +79,17 @@ h2 {
 	margin-bottom: 18px;
 }
 
-h3 {
-	font-family: 'Space Mono', monotype;
-	color: #000000;
-	font-size: 280%;
-	margin-bottom: -18px;
-}
-
 p {
 	font-family: 'Courier New', Courier, monotype;
 	color: #000000;
 	font-size: 175%;
+}
+
+p.homepage {
+	font-family: 'Space Mono', monotype;
+	color: #000000;
+	font-size: 280%;
+	margin-bottom: -18px;
 }
 
 img {
