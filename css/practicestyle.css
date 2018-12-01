@@ -82,14 +82,14 @@ h1.homepage {
 h2 {
 	font-family: 'Space Mono', monotype;
 	color: #000000;
-	font-size: 380%;
+	font-size: 360%;
 	margin-bottom: 18px;
 }
 
 p {
 	font-family: 'Courier New', Courier, monotype;
 	color: #000000;
-	font-size: 280%;
+	font-size: 240%;
 }
 
 p.centered {
@@ -130,8 +130,6 @@ img {
 .content-container {
 	display: flex;
 	justify-content: center;
-	padding: 32px;
-	max-width: 100%;
 }
 
 .home-content-container {
@@ -167,14 +165,32 @@ img {
 	text-align: right;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 460px) {
 	div.portfolio-works p {
 		display: none;
 	}
 
 	div.portfolio-works h2 {
-		font-size: 140%;
+		font-size: 160%;
 		margin: 0px;
+	}
+	
+	h1 {
+		font-size: 400%;
+	}
+	
+	p {
+		font-size: 200%;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	h1 {
+		font-size: 280%;
+	}
+	
+	p {
+		font-size: 140%;
 	}
 }
 
