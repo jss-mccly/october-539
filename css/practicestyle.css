@@ -131,6 +131,7 @@ img {
 	display: flex;
 	justify-content: center;
 	padding: 32px;
+	max-width: 100%;
 }
 
 .home-content-container {
