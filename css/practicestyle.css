@@ -212,8 +212,11 @@ p.centered {
 	}
 
 	li.home {
-		background-color: #F5F5F5;
 		margin-right: auto;
+	}
+	
+	li.highlight{
+		background-color: #F5F5F5;
 	}
 }
 
