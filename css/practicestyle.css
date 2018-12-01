@@ -130,6 +130,7 @@ img {
 .content-container {
 	display: flex;
 	justify-content: center;
+	padding: 32px;
 }
 
 .home-content-container {
@@ -173,10 +174,6 @@ img {
 	div.portfolio-works h2 {
 		font-size: 140%;
 		margin: 0px;
-	}
-	
-	p.centered {
-		font-size: 240%;
 	}
 }
 
