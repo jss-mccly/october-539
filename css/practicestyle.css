@@ -56,6 +56,10 @@ li a:hover {
 }
 
 li.home {
+	margin-right: auto;
+}
+
+li.highlight{
 	background-color: #F5F5F5;
 }
 
