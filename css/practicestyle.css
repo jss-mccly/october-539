@@ -85,6 +85,12 @@ p {
 	font-size: 175%;
 }
 
+p.centered {
+	font-family: 'Courier New', Courier, monotype;
+	color: #000000;
+	text-align: center;
+}
+
 p.homepage {
 	font-family: 'Space Mono', monotype;
 	color: #000000;
@@ -94,12 +100,6 @@ p.homepage {
 
 img {
 	max-width: 100%;
-}
-
-p.centered {
-	font-family: 'Courier New', Courier, monotype;
-	color: #000000;
-	text-align: center;
 }
 
 .about-works-container {
@@ -163,7 +163,7 @@ p.centered {
 		display: none;
 	}
 
-	div.portfolio-works h3 {
+	div.portfolio-works p.homepage {
 		font-size: 175%;
 		margin: 0px;
 	}
@@ -237,7 +237,7 @@ p.centered {
 		font-size: 630%;
 	}
 
-	h3 {
+	p.homepage {
 		font-size: 385%;
 	}
 
