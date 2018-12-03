@@ -2,6 +2,7 @@ html {
 	background-size: cover;
 	padding: 6px;
 	box-sizing: border-box;
+	height: 101%;
 }
 
 *, *:before, *:after {
