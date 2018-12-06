@@ -13,12 +13,12 @@ body {
 	background-color: #F5F5F5;
 }
 
-html.homebg {
+.homebg {
 	background: url(../images/homebg.jpeg) no-repeat center center fixed;
 	background-size: cover;
 }
 
-html.pagebg {
+.pagebg {
 	background: url(../images/abstractbg.jpeg) no-repeat center center fixed;
 	background-size: cover;
 }
@@ -72,7 +72,7 @@ h1 {
 	margin-bottom: -18px;
 }
 
-h1.homepage {
+.homepage {
 	font-family: 'Courier New', Courier, monospace;
 	color: #000000;
 	font-size: 760%;
@@ -93,13 +93,13 @@ p {
 	font-size: 240%;
 }
 
-p.centered {
+.centered {
 	font-family: 'Courier New', Courier, monotype;
 	color: #000000;
 	text-align: center;
 }
 
-p.homepage {
+.homepage-2 {
 	font-family: 'Space Mono', monotype;
 	color: #000000;
 	font-size: 280%;
@@ -167,11 +167,11 @@ img {
 }
 
 @media only screen and (max-width: 520px) {
-	div.portfolio-works-item p {
+	.portfolio-works-item p {
 		display: none;
 	}
 
-	div.portfolio-works h2 {
+	.portfolio-works h2 {
 		font-size: 160%;
 		margin: 0px;
 	}
@@ -200,12 +200,12 @@ img {
 }
 
 @media only screen and (min-width: 640px) {
-	div.portfolio-works {
+	.portfolio-works {
 		display: flex;
 		flex-flow: column nowrap;
 	}
 
-	div.about-works {
+	.about-works {
 		flex-flow: row nowrap;
 		width: 100%;
 	}
@@ -259,7 +259,7 @@ img {
 		font-size: 480%;
 	}
 	
-	h1.homepage {
+	.homepage {
 		font-size: 760%;
 	}
 	
@@ -271,7 +271,7 @@ img {
 		font-size: 280%;
 	}
 	
-	p.homepage {
+	.homepage-2 {
 		font-size: 380%;
 	}
 
