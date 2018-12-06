@@ -167,7 +167,7 @@ img {
 }
 
 @media only screen and (max-width: 460px) {
-	div.portfolio-works p {
+	div.portfolio-works-item p {
 		display: none;
 	}
 
@@ -186,6 +186,10 @@ img {
 }
 
 @media only screen and (max-width: 380px) {
+	div.portfolio-works-item p {
+		display: none;
+	}
+	
 	h1 {
 		font-size: 280%;
 	}
