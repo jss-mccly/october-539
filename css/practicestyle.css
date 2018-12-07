@@ -142,7 +142,7 @@ img {
 .portfolio-works-container {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: stretch;
 }
 
 .portfolio-works {
@@ -153,7 +153,6 @@ img {
 }
 
 .portfolio-works-item {
-	justify-content: space-around;
 	margin: auto;
 	max-width: 100%;
 }
